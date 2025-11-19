@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma Online - Meu Sertão Acessível</title>
+    
+    <!-- Importando a Biblioteca do Supabase via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>📅 Projeto Final</h1>
+        <p class="subtitle">Meu Sertão Acessível | 18/11 a 10/12</p>
+        <span id="connectionStatus" class="status-indicator">Conectando ao sistema...</span>
+        
+        <div class="progress-container">
+            <div class="progress-bar" id="globalProgress"></div>
+            <div class="progress-text" id="globalProgressText">0% Concluído</div>
+        </div>
+    </header>
+
+    <div class="filters" id="filters">
+        <button class="filter-btn active" onclick="filterTasks('all')">Todas</button>
+        <button class="filter-btn" onclick="filterTasks('Equipe 1')">Eq. 1</button>
+        <button class="filter-btn" onclick="filterTasks('Equipe 2')">Eq. 2</button>
+        <button class="filter-btn" onclick="filterTasks('Equipe 3')">Eq. 3</button>
+        <button class="filter-btn" onclick="filterTasks('Equipe 4')">Eq. 4</button>
+        <button class="filter-btn" onclick="filterTasks('Equipe 5')">Eq. 5</button>
+        <button class="filter-btn" onclick="filterTasks('Equipe 6')">Eq. 6</button>
+    </div>
+
+    <div id="app-content">
+        <p style="text-align:center; color:#666;">Carregando tarefas...</p>
+    </div>
+
+    <div class="copyright">
+        © Wanderson Portela
+    </div>
+</div>
+
+<!-- Link para o arquivo JavaScript externo -->
+<script src="script.js"></script>
+</body>
+</html>
