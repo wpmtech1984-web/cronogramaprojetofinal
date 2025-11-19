@@ -24,7 +24,10 @@ const structure = [
             { id: 107, team: "Equipe 6", text: "Criação da identidade visual e protótipo digital inicial." },
             { id: 108, team: "ENTREGA", text: "Prévia do diagnóstico (Eq. 1)", isDelivery: true },
             { id: 109, team: "ENTREGA", text: "Tema + público-alvo (Eq. 2)", isDelivery: true },
-            { id: 110, team: "ENTREGA", text: "Esboço da Condução Afetiva (Eq. 3)", isDelivery: true }
+            { id: 110, team: "ENTREGA", text: "Esboço da Condução Afetiva (Eq. 3)", isDelivery: true },
+            { id: 111, team: "ENTREGA", text: "Introdução do artigo (Eq. 4)", isDelivery: true },
+            { id: 112, team: "ENTREGA", text: "Rascunho da apresentação (Eq. 5)", isDelivery: true },
+            { id: 113, team: "ENTREGA", text: "Identidade visual + QR inicial (Eq. 6)", isDelivery: true }
         ]
     },
     {
@@ -40,6 +43,7 @@ const structure = [
             { id: 207, team: "ENTREGA", text: "Roteiro final (Eq. 2)", isDelivery: true },
             { id: 208, team: "ENTREGA", text: "Metodologia concluída (Eq. 3)", isDelivery: true },
             { id: 209, team: "ENTREGA", text: "60% do artigo (Eq. 4)", isDelivery: true },
+            { id: 211, team: "ENTREGA", text: "Ensaios iniciais (Eq. 5)", isDelivery: true },
             { id: 210, team: "ENTREGA", text: "Protótipo beta + gravações (Eq. 6)", isDelivery: true }
         ]
     },
@@ -55,6 +59,7 @@ const structure = [
             { id: 306, team: "Equipe 6", text: "Gravação final; edição do documentário; finalizar QR Codes." },
             { id: 307, team: "ENTREGA", text: "Artigo 80% concluído (Eq. 4)", isDelivery: true },
             { id: 308, team: "ENTREGA", text: "Infográfico + mapa (Eq. 2)", isDelivery: true },
+            { id: 310, team: "ENTREGA", text: "Ensaio oficial (Eq. 5)", isDelivery: true },
             { id: 309, team: "ENTREGA", text: "Documentário em 70% (Eq. 6)", isDelivery: true }
         ]
     },
